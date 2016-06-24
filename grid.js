@@ -21,7 +21,7 @@ var Grid = function( bgColor, color, cellSize, width, height ) {
 	grid.group;
 	grid.intersections;
 	grid.draw();
-};
+}
 
 Grid.prototype.resize = function() {
 	view.viewSize.width = window.innerWidth;

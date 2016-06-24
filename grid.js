@@ -1,3 +1,5 @@
+// Based on a zoomable grid design from Nicholas Kyriakides(@nicholaswmin, nik.kyriakides@gmail.com)
+
 var Grid = function( bgColor, color, cellSize, width, height ) {
 	var grid = this;
 	grid.center = new Point( view.center );

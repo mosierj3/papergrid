@@ -32,13 +32,17 @@ window.onload = function() {
 				grid.draw();
 				break;
 			case 187: //(+)
+				console.log("'+'");
 				if ( event.shiftKey ) {
+					console.log("shift + '+'");
 					grid.zoom( 0.1 );
 					grid.draw();
 				}
 				break;
 			case 189: //(-)
+				console.log("'-'");
 				if ( event.shiftKey ) {
+					console.log("shift + '-'");
 					grid.zoom( -0.1 );
 					grid.draw();
 				}
